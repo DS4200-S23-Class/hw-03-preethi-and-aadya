@@ -1,0 +1,20 @@
+* {
+    font: arial
+}
+
+.column {
+    float: left;
+    width: 50%;
+    flex: 1;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .title {
+    text-align: center;
+  }
