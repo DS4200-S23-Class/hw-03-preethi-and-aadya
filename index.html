@@ -1,83 +1,100 @@
 <!DOCTYPE html>
-<html>
+<html> 
 
 <head>
     <meta charset=utf-8/>
+    <link rel="stylesheet" type="text/css" href="style.css" />
     <title>hw-03</title>
-    <link rel="stylesheet" href="style.css">
 </head>
-
-
 <body>
-
-  <h1>hw-03: Interactive Webpage, and Marks & Channels</h1>
-
-  <!--VIZ #1-->
-  <div class="flex-container">
-    <!--RIGHT COLUMN-->
-    <div class="col">
-      <img src="img/vis1.png"/>
-    </div>
-    <!--LEFT COLUMN-->
-    <div class="col">
-      <h3>Marks</h3>
-      <ul>
-        <li>abc</li>
-      </ul>
-      <h3>Channels</h3>
-      <ul>
-        <li>abc</li>
-        <ul>
-          <li>def</li>
-        </ul>
-      </ul>
-      <h3>Colormap(s)</h3>
-      <ul>
-        <li>abc</li>
-      </ul>
-    </div>
-  </div>
-  <!--END VIZ #1-->
-
-  <!--VIZ #2-->
-  <div class="flex-container">
-    <!--RIGHT COLUMN-->
-    <div class="col">
-      <img src="img/vis2.png"/>
-    </div>
-    <!--LEFT COLUMN-->
-    <div class="col">
-      <h3>Marks</h3>
-      <ul>
-        <li>abc</li>
-      </ul>
-      <h3>Channels</h3>
-      <ul>
-        <li>abc</li>
-        <ul>
-          <li>def</li>
-        </ul>
-      </ul>
-      <h3>Colormap(s)</h3>
-      <ul>
-        <li>abc</li>
-      </ul>
-    </div>
-  </div>
-  <!--END VISUALIZATION #2-->
-
-  <h2>Acknowledgements</h2>
   <div>
-    <ul>
-        <li>https://www.w3schools.com/html/default.asp</li>
-        <li>https://www.w3schools.com/css/default.asp</li>
-        <li>https://css-tricks.com/snippets/css/a-guide-to-flexbox/</li>
-        <li>https://www.kaggle.com/datasets/peretzcohen/2019-census-us-population-data-by-state?resource=download</li>
-    </ul>
+      <h1>hw-03: Interactive Webpage, and Marks & Channels</h1>   
+  <div>
+<!--button clicked function-->
+  <button type="button" onClick="buttonClicked(
+  )"> Click me! </button>
+
+  <div id="button-div" class="gen">
+      Number of times button clicked: 0
+
   </div>
+    <!-- Included Viz One -->
+    <div class="row">
+        <div class="column">
+            <img src="img/vis1.png"  alt="DOM">
+        </div>
+        <div class="column">
+            <h2>Title the visualization</h2>
+            <h4>Marks</h4>
+            <h4>Channels</h4>
+            <h4>Colormap</h4>
+    </div>
+  </div>
+    
+    <!-- Included Viz Two-->
+    <div class="row">
+        <div class="column">
+            <img src="img/vis2.png" alt="DOM">
+        </div>
+        <div class="column">
+            <h2>Title of Visualization</h2>
+            <h4>Marks</h4>
+            <h4>Channels</h4>
+            <h4>Colormap</h4>
+        </div>
+    </div>
+
+    <!-- visualOne that we created -->
+    <div class="row">
+        <div class="column">
+            <img src="visualOne.png" alt="DOM">
+        </div>
+        <div class="column">
+            <h2>Title of Visualization</h2>
+            <h4>Marks</h4>
+            <h4>Channels</h4>
+            <h4>Colormap</h4>
+        </div>
+    </div>
+
+    <!-- visualTwo that we created -->
+    <div class="row">
+      <div class="column">
+          <img src="visualTwo.png" alt="DOM">
+      </div>
+      <div class="column">
+          <h2>Title of Visualization</h2>
+          <h4>Marks</h4>
+          <h4>Channels</h4>
+          <h4>Colormap</h4>
+      </div>
+  </div>
+
+
 
 <!--call javacript file-->
-<script src = "main.js"></script>    
+<script src = "main.js"></script>     
+
+
+ <!-- Create div for sources -->
+<h2>Acknowledgements</h2>
+
+ <div>
+  <ul>
+          <li>
+              <a href="https://www.w3schools.com/html/default.asp" target="_blank">HTML Tutorial</a>
+          </li>
+          <li>
+              <a href="https://www.w3schools.com/css/default.asp">CSS tutorial</a>
+          </li>
+          <li>
+              <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">Guide to Flexbox</a>
+          </li>
+          <li>
+              <a href="https://www.kaggle.com/datasets/thedevastator/forbes-100-women-of-the-year" target="_blank">Forbes 100 Women of the Year Dataset</a>
+          </li>
+  </ul>
+</div>
 
 </body>
 

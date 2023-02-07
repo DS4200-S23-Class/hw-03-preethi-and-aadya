@@ -1,14 +1,12 @@
-// // clickable button
-// var num = 1;
-// function buttonClicked() {
+// clickable button
+let count = 0
+function buttonClicked() {
+console.log("button was clicked");
 
-// 	console.log("button was clicked!")
+count += 1
 
-// 	let newText = "Number of times button clicked:"+ (num++);
+let newText = "Button was clicked:";
+let buttonDiv = document.getElementById("button-div");
 
-// 	// select the button to modify
-// 	let  buttonDiv = document.getElementById("button-div");
-
-// 	buttonDiv.innerHTML = newText;
-
-// }
+buttonDiv.innerHTML = newText + count;
+}
