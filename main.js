@@ -1,12 +1,13 @@
-// clickable button
-let count = 0
-function buttonClicked() {
-console.log("button was clicked");
+// interactive button
+  let color = 'white';
 
-count += 1
-
-let newText = "Button was clicked:";
-let buttonDiv = document.getElementById("button-div");
-
-buttonDiv.innerHTML = newText + count;
-}
+  function change_color() {
+      // conditions for color change
+      if (color == 'white') {
+          document.body.style.backgroundColor = "pink";
+      }
+      else {
+          document.body.style.backgroundColor = 'white';
+      }
+      color = document.body.style.backgroundColor;
+  }
