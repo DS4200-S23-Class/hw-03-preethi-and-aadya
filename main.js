@@ -1,13 +1,13 @@
-// interactive button
-  let color = 'white';
+// js button clicker
 
-  function change_color() {
-      // conditions for color change
-      if (color == 'white') {
-          document.body.style.backgroundColor = "pink";
-      }
-      else {
-          document.body.style.backgroundColor = 'white';
-      }
-      color = document.body.style.backgroundColor;
-  }
+let color = 'white';
+function changeColor() {
+    // if statement to change the background color
+    if (color == 'white') {
+        document.body.style.backgroundColor = "lightpink";
+    }
+    else {
+        document.body.style.backgroundColor = 'white';
+    }
+    color = document.body.style.backgroundColor;
+}
