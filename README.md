@@ -1,7 +1,7 @@
 # hw-03
 hw-03 - Interactive Webpage
 
-(GitHub Pages)[https://github.com/DS4200-S23-Class/hw-03-preethi-and-aadya]
+(GitHub Pages)[https://ds4200-s23-class.github.io/hw-03-preethi-and-aadya/]
 
 Clone this repo and work locally. Be sure to push the final version of your code (and any significant updates along the way) before submitting. 
 
